@@ -17,22 +17,22 @@ export interface UserProps {
 }
 
 export interface Welcome {
-    id:       number;
-    name:     string;
+    id: number;
+    name: string;
     username: string;
-    email:    string;
-    address:  Address;
-    phone:    string;
-    website:  string;
-    company:  Company;
+    email: string;
+    address: Address;
+    phone: string;
+    website: string;
+    company: Company;
 }
 
 export interface Address {
-    street:  string;
-    suite:   string;
-    city:    string;
+    street: string;
+    suite: string;
+    city: string;
     zipcode: string;
-    geo:     Geo;
+    geo: Geo;
 }
 
 export interface Geo {
@@ -41,7 +41,7 @@ export interface Geo {
 }
 
 export interface Company {
-    name:        string;
+    name: string;
     catchPhrase: string;
-    bs:          string;
+    bs: string;
 }
